@@ -1,0 +1,34 @@
+---
+title: "pawmi"
+author: "Faith Gibson"
+date: "2024-06-04"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Steps for linking GitHub to Posit Cloud
+
+```{r}
+install.packages("usethis")
+library(usethis)
+```
+
+```{r}
+usethis::create_github_token()
+gitcreds::gitcreds_set()
+use_git_config(user.name = "fegibson", user.email = "faithegibson1204@gmail.com")
+```
+
+```{r}
+git_sitrep()
+```
+
+### Facts about Pawmi
+* Small
+* Cute
+* A very silly guy
+* Rhymes with Pomni
+* THE BEST Pokemon in Scarlet/Violet (SCIENTIFICALLY PROVEN!!!!)
