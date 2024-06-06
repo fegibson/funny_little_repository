@@ -16,5 +16,6 @@ knitr::opts_chunk$set(echo = TRUE)
 * A very silly guy
 * Rhymes with Pomni
 * THE BEST Pokemon in Scarlet/Violet (SCIENTIFICALLY PROVEN!!!!)
+* Flopped
 
 ![WITNESS HIM](https://archives.bulbagarden.net/media/upload/thumb/5/58/0921Pawmi.png/375px-0921Pawmi.png)
